@@ -1,0 +1,98 @@
+.body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666; 
+}
+
+.City1,
+.City2,
+.City3 {
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.City1 {
+  background-image: url("https://wonderfulengineering.com/wp-content/uploads/2016/01/Mumbai-wallpaper-14.jpg");
+  min-height: 625px;
+}
+
+.City2 {
+  background-image: url("https://www.wallpapertip.com/wmimgs/14-141015_leh-ladakh-himachal-pradesh.jpg");
+  min-height: 400px;
+}
+
+.City3 {
+  background-image: url("https://cdn.hipwallpaper.com/i/11/17/sD0fUY.jpg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: justify;
+  padding: 50px 50px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #373e44;
+  color: #ddd;
+}
+
+.text {
+  position: absolute;
+  top: 330px;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.text2,
+.text3 {
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.border {
+  border-radius: 10px;
+  background-color: rgba(3, 3, 3, 0.63);
+  color: white;
+  padding: 20px;
+}
+
+.bordertrans {
+  background-color: transparent;
+}
+
+@media (max-width: 568px) {
+  .City1,
+  .City2,
+  .City3 {
+    background-attachment: scroll;
+  }
+}
